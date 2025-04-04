@@ -1,0 +1,22 @@
+{
+  "name": "school-program-ad",
+  "version": "1.0.0",
+  "description": "A web project for advertising a school program.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step can be added here.'"
+  },
+  "keywords": [
+    "school",
+    "program",
+    "advertisement",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Details - History</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        body.history-page {
+            background: linear-gradient(135deg, #fbe9e7, #ffccbc); /* Light orange gradient */
+            color: #4e342e; /* Dark brown text */
+            font-family: 'Georgia', serif;
+        }
+        header {
+            background-color: #6d4c41; /* Dark brown header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #4e342e; /* Accent border */
+        }
+        li{
+            color: #5d4037; /* Medium brown text */
+            font-weight: bold;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1, h2 {
+            color: #4e342e; /* Dark brown headings */
+            text-align: center;
+        }
+        p {
+            color: #5d4037; /* Medium brown text */
+            line-height: 1.8;
+            text-align: justify;
+        }
+        .teacher-image {
+            border: 3px solid #4e342e; /* Brown border for teacher image */
+            border-radius: 10px;
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+        }
+        .image-gallery img {
+            border: 3px solid #4e342e; /* Brown border for images */
+            border-radius: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .video-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .video-container iframe {
+            border: 3px solid #4e342e; /* Brown border for videos */
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #6d4c41;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-top: 5px solid #4e342e; /* Accent border */
+        }
+        .history-pattern {
+            background-image: url('assets/history-pattern.png'); /* Add a history-themed background pattern */
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body class="history-page">
+    <header>
+        <h1>History</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Our Courses</a>
+            <a href="Biology.html">Biology</a>
+            <a href="Math.html">Math</a>
+            <a href="English.html">English</a>
+            <a href="Concentrations.html">IB concentrations</a>
+        </nav>
+    </header>
+    <main>
+        <div class="history-pattern">
+            <h2>Overview</h2>
+            <p>IB history incorporates two years of history of the Americas. This covers units ranging from the discovery of the Americas, to Revolutionary war, to Cold war, and many things between and beyond. Furthermore this incorporates broad perspectives and information relating to various nations within the Americas including the USA, Canada, Mexico and more. This class encourages students to develop skills as a historian in order to understand and analyze historical events and chronologies.</p>
+        </div>
+
+        <h2>Classes</h2>
+        <ul>
+            <li>IB History Year 1</li>
+            <p>Year 1 of History of The Americas covers units including: the discovery of Americas, British tariffs and the revolutionary war, the American civil war, the great depression, WW1 and WW2, and the cold war. Furthermore, it involves the learning of being able to analyze history in a broader context beyond the perspective of just the USA.</p>
+            <li>IB History Year 2</li>
+            <p>IB history year 2 expands on the ideas developed in year 1 giving new information on different events but particularly year 2 serves as an extension to the historian skills developed in year 1. This includes writing papers and writing an internal assessment.</p>
+        </ul>
+
+        <h2>Teacher: Coach. Jackson Woodle</h2>
+        <img src="assets/woodle.jpg" alt="Teacher Image" class="teacher-image">
+
+        <div class="image-gallery-container" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <div class="image-gallery" style="display: flex; gap: 20px;">
+                
+                <img src="assets/NA.jpg" alt="North America" style="width: 300px; border: 3px solid #4e342e; border-radius: 10px;">
+                <img src="assets/SouthA.jpg" alt="South America" style="width: 300px; border: 3px solid #4e342e; border-radius: 10px;">
+                
+            </div>
+            <div class="video-container" style="display: flex; gap: 20px;">
+                <iframe 
+                    width="600" 
+                    height="400" 
+                    src="https://www.youtube.com/embed/Fhe-94a_XSs" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                <iframe 
+                    width="600" 
+                    height="400" 
+                    src="https://www.youtube.com/embed/hxdSr03ULdM" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
